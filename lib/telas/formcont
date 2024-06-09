@@ -1,0 +1,263 @@
+import 'package:flutter/material.dart';
+
+class Formulario extends StatelessWidget {
+  const Formulario({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.deepPurple,
+        title: const Text("FORMULARIO DE VENDA"),
+      ),
+      body: Padding(
+        padding: EdgeInsets.all(18.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            const Text(
+              "Informações do vendedor",
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 18,
+              ),
+            ),
+            Divider(),
+            ElevatedButton(
+              onPressed: () {},
+              child: Text("Enviar"),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+
+
+
+
+// Text(
+            //   "Escolha o modelo da Autorização:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Descrição do Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Dormitório",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Banheiro",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Dormitório",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Cozinha",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Sala",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Outras informações do Imóvel:",
+            //   style: TextStyle(
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Medidas do Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Área útil:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Área total:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Frente:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Fundos:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Condições de pagamento Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Condições do Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Preço de comercialização autorizado:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Base permuta:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Saldo devedor:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Parcelas:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Documentação do Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Averbada:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Escritura:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Placa:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Imóvel desocupado::",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Outras informações sobre a documentação do Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "I - PRESTAÇÃO DE SERVIÇOS: O corretor fica autorizado neste ato, por sua conta e risco, promover a venda, bem como publicar anúncios, disponibilizar o imóvel na internet/portais, realizar visitas e fotografá-lo, enfim, praticar todos os atos necessários ao fiel e bom cumprimento da presente autorização, inclusive estabelecer parcerias com outra imobiliária e corretores, sempre avisando o proprietário caso exista parceria.\n        II – PRAZO: A presente autorização, se dá em caráter indeterminado. Em caso de desistência ou comercialização do imóvel sem participação de nosso escritório, o proprietário compromete-se a comunicar expressamente sua decisão.\n        III – REMUNERAÇÃO: Em caso de venda o corretor receberá os honorários correspondentes a _____% (                               ) calculados sobre o valor total da transação, que serão devidos no ato do recebimento do sinal e princípio de pagamento ou na escritura caso não ocorra contrato preliminar.",
+            //   style: TextStyle(
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Adicione Fotos do seu Imóvel:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Assinatura:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "CPF:",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Assinatura",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+            // Text(
+            //   "Eu concordo com os termos e condições. ",
+            //   style: TextStyle(
+            //     fontWeight: FontWeight.bold,
+            //     fontSize: 18,
+            //   ),
+            // ),
+
+
+            // floatingActionButton: FloatingActionButton(
+                  //   onPressed: () {
+                  //     print("Foi clicado");
+                  //   },
+                  //   child: Icon(Icons.add),
+                  // ),
